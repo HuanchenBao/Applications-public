@@ -10,3 +10,12 @@ A standalone dictation app with local speech recognition, optional GPT or local 
 
 Dolphin’s application source remains private. This public repository contains the compiled installer, release information and signed update feed. The installer excludes developer credentials and personal dictation data.
 
+## Zebra
+
+**Zebra 1.13.0 — Apple notarized** · Apple silicon · macOS 13.5 or later
+
+[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.13.0/Zebra-1.13.0-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.13.0) · [Setup, updates and privacy](Zebra.md)
+
+A PDF reader and LaTeX workspace with document-aware dictation, GPT questions and source editing. No speech model or shared account is bundled. On first use, sign in with your own ChatGPT account and choose the optional Whisper Turbo Q5 download. Dolphin speech integration remains optional.
+
+Zebra’s development source and source archives remain private. Public release assets contain only the compiled app distributions and checksums. The installer excludes developer credentials, personal documents and recordings.
