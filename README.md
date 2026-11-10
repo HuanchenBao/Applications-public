@@ -10,7 +10,7 @@ A standalone dictation app with local speech recognition, optional GPT or local 
 
 Dolphin’s application source remains private. This public repository contains the compiled installer, release information and signed update feed. The installer excludes developer credentials and personal dictation data.
 
-## Zebra
+## Zebra — AI-assisted LaTeX Editor and PDF Reader
 
 **Zebra 1.13.0 — Apple notarized** · Apple silicon · macOS 13.5 or later
 
