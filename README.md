@@ -1,6 +1,6 @@
 # Applications
 
-## Dolphin
+## Dolphin — AI-assisted dictation tool for latex input
 
 **Dolphin 1.12.0 — Apple notarized** · Apple silicon · macOS 14 or later
 
