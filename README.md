@@ -20,6 +20,14 @@ A PDF reader and LaTeX workspace with document-aware dictation, GPT questions an
 
 Zebra’s development source and source archives remain private. Public release assets contain only the compiled app distributions and checksums. The installer excludes developer credentials, personal documents and recordings.
 
+### Edit Beamer slides directly on the PDF
+
+Select what you want to change and dictate your suggestions. Click **Apply changes** once, enjoy your coffee, and come back to the revised PDF.
+
+<img src="assets/demos/zebra-beamer-editing.gif" alt="Zebra demo: four dictation instructions on Beamer slides, one Apply changes click, and the revised PDF with before-and-after results." width="680">
+
+*Four edits · one Apply changes · 62 seconds*
+
 ## A Note on AI Use and Source Code
 
 Dolphin and Zebra are closed source and were developed primarily using AI-generated code. I don’t have a coding background, so I’m unable to independently review and verify the source code. To reduce the risk of accidentally exposing personal or confidential information, I’ve chosen to keep the source private and share only the packaged apps.
