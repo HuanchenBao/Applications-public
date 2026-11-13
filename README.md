@@ -17,7 +17,7 @@ Dolphin’s application source remains private. This public repository contains 
 
 **Stay in the paper. Change the paper.**
 
-[![Zebra demo: select PDF passages, ask GPT for edits, compile and sync to Overleaf](assets/demos/zebra-pdf-editing.gif)](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds)
+[![Zebra demo: select PDF passages, ask GPT for edits, compile and sync to Overleaf](assets/demos/zebra-pdf-editing-v2.gif)](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds)
 
 [Watch the 30-second demo](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds) · Five passage edits, one compiled revision, verified Overleaf sync.
 
