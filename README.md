@@ -15,6 +15,12 @@ Dolphin’s application source remains private. This public repository contains 
 
 ## Zebra — AI-assisted LaTeX Editor and PDF Reader
 
+**Stay in the paper. Change the paper.**
+
+[![Zebra demo: select PDF passages, ask GPT for edits, compile and sync to Overleaf](assets/demos/zebra-pdf-editing.gif)](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds)
+
+[Watch the 30-second demo](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds) · Five passage edits, one compiled revision, verified Overleaf sync.
+
 **Zebra 1.20.4 — Apple notarized** · Apple silicon · macOS 13.5 or later
 
 [Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.4/Zebra-1.20.4-macOS-AppleSilicon.dmg) · **[Read the release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)** · [Setup, updates and privacy](Zebra.md)
