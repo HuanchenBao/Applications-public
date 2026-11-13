@@ -1,5 +1,8 @@
 # Applications
 
+**Zebra:** [Latest download](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.4/Zebra-1.20.4-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)  
+**Dolphin:** [Download and release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.12.0)
+
 ## Dolphin — AI-assisted dictation tool for latex input
 
 **Dolphin 1.12.0 — Apple notarized** · Apple silicon · macOS 14 or later
@@ -12,21 +15,17 @@ Dolphin’s application source remains private. This public repository contains 
 
 ## Zebra — AI-assisted LaTeX Editor and PDF Reader
 
-**Zebra 1.13.0 — Apple notarized** · Apple silicon · macOS 13.5 or later
+**Zebra 1.20.4 — Apple notarized** · Apple silicon · macOS 13.5 or later
 
-[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.13.0/Zebra-1.13.0-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.13.0) · [Setup, updates and privacy](Zebra.md)
+[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.4/Zebra-1.20.4-macOS-AppleSilicon.dmg) · **[Read the release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)** · [Setup, updates and privacy](Zebra.md)
 
-A PDF reader and LaTeX workspace with document-aware dictation, GPT questions and source editing. No speech model or shared account is bundled. On first use, sign in with your own ChatGPT account and choose the optional Whisper Turbo Q5 download. Dolphin speech integration remains optional.
+A simpler PDF-first workspace with a fully capable GPT assistant and direct Overleaf project browsing. Connect to Overleaf in Zebra, choose your TeX file, and collect passage-specific instructions for **Apply all**. Editing and compilation run locally, with verified synchronization to Overleaf in the background; external changes pause uploads for review.
 
-Zebra’s development source and source archives remain private. Public release assets contain only the compiled app distributions and checksums. The installer excludes developer credentials, personal documents and recordings.
+The compact interface keeps the PDF central, with a left icon rail and GPT chat on demand. Select a passage and press **Option+E** to type an instruction. Zebra is text-only: no speech model, microphone permission or dictation-app integration. Sign in with your own ChatGPT account. An independent dictation app can insert text normally.
 
-### Edit Beamer slides directly on the PDF
+The full GPT assistant supports model/reasoning choices, research, linked references, images, notes, version history and publication approvals. Updates under **About** provide signed, checksum-verified downloads for manual installation.
 
-Select what you want to change and dictate your suggestions. Click **Apply changes** once, enjoy your coffee, and come back to the revised PDF.
-
-<img src="assets/demos/zebra-beamer-editing.gif" alt="Zebra demo: four dictation instructions on Beamer slides, one Apply changes click, and the revised PDF with before-and-after results." width="680">
-
-*Four edits · one Apply changes · 62 seconds*
+Zebra’s development source and source archives remain private. Public downloads contain compiled installers, minimized interface assets, third-party licenses and checksums. Package audits found no developer credentials, personal documents, signing keys or model weights.
 
 ## A Note on AI Use and Source Code
 
