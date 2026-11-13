@@ -1,33 +1,31 @@
 # Zebra
 
-Zebra is a macOS PDF reader and LaTeX workspace with document-aware dictation and GPT assistance.
+Zebra is a macOS PDF viewer with a fully capable GPT assistant and connected LaTeX/Overleaf editing.
 
-[Download Zebra 1.13.0](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.13.0)
+[Download Zebra 1.20.4](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)
 
-**Developer ID signed and Apple notarized.**
-
-Requires an Apple silicon Mac (M1 or newer) running macOS 13.5 or later. Download the DMG, open it, and drag Zebra to Applications.
+Developer ID signed and Apple notarized. Requires an Apple silicon Mac running macOS 13.5 or later. Open the DMG and drag Zebra to Applications.
 
 ## Get started
 
-1. Sign in with your own ChatGPT account for GPT features.
-2. Choose **Download default speech model** for local dictation. Whisper Turbo Q5 is approximately 574 MB; no speech model is bundled.
-3. Drop a PDF to read and ask questions, or a TeX file to edit in its existing folder.
-4. Select a passage, press **E**, speak after the chime, then press **E** again. Review your instruction and press **Enter**. Use **Shift+Enter** for a new line.
+1. Open a PDF or TeX file, or connect to Overleaf and choose the TeX document explicitly.
+2. Sign in with your own ChatGPT account in Connections.
+3. Select a passage and press Option+E to type an instruction. Independent system dictation can insert text normally.
+4. Selected-source revision instructions are collected for Apply all. Global chat supports research, references, images and substantive reasoning, with genuine approvals for publishing changes.
 
-PDF reading and typed input can be used without a speech-model download. The first LaTeX compilation downloads its verified compiler and required packages.
+Zebra is text-only: no speech model, microphone permission or dictation-app integration. The first local LaTeX compilation downloads its verified compiler and required packages. Overleaf projects use a private local working cache for editing and compilation, with background synchronization; external changes pause uploads for review.
+
+The compact interface keeps the PDF central, with a left icon rail, chat on demand, Connections for accounts/projects, and the Zebra icon for About. Notes and version history stay with the paper.
 
 ## Updates
 
-Open **About → Updates** to check for and download newer versions. Zebra verifies the signed release information and the installer’s exact size and SHA-256 checksum. Updates are installed manually by replacing the app; documents, models and settings remain separate.
+Open the Zebra icon → About → Updates to check for signed releases and download verified installers. Zebra checks the pinned release signature, exact size and SHA-256. Installation is manual; normal macOS quarantine is retained. Account data and papers remain separate from the app.
 
 ## Privacy and source
 
-The installer contains no developer login, API keys, private keys, documents, recordings or speech weights. Audio is transcribed locally. GPT questions and optional transcript cleanup send your transcript and relevant document context through your own account.
+The installer contains no developer account credentials, private signing keys, personal papers or speech models. GPT receives the context you choose through your own account. Required project access and publication approvals remain explicit.
 
-Zebra is proprietary software. This repository hosts public downloads and release information only; application development source and source archives remain private. Required web runtime assets and third-party libraries are inspectable, and third-party license notices are included.
-
-Dolphin speech integration is optional. Zebra works independently and does not install or modify Dolphin.
+Zebra is proprietary software. This public repository contains compiled installers and release information only. Development source and source archives remain private. Native/backend code is compiled; web interface assets and third-party libraries are inspectable. Third-party licenses are included.
 
 Developed by [Huanchen Bao](https://blog.nus.edu.sg/huanchen/). © 2026 Huanchen Bao. All rights reserved.
 
