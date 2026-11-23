@@ -2,20 +2,26 @@
 
 Zebra is a macOS PDF viewer with a fully capable GPT assistant and connected LaTeX/Overleaf editing.
 
-[Download Zebra 1.20.4](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)
+[Download Zebra 1.20.8](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.8)
 
 Developer ID signed and Apple notarized. Requires an Apple silicon Mac running macOS 13.5 or later. Open the DMG and drag Zebra to Applications.
 
 ## Get started
 
-1. Open a PDF or TeX file, or connect to Overleaf and choose the TeX document explicitly.
+1. Open a PDF or TeX file, connect to Overleaf, or open a GitHub project from Connections. Choose the TeX document explicitly.
 2. Sign in with your own ChatGPT account in Connections.
-3. Select a passage and press Option+E to type an instruction. Independent system dictation can insert text normally.
+3. Select a passage and press Command+E (Option+E also works) to type an instruction. Independent system dictation can insert text normally.
 4. Selected-source revision instructions are collected for Apply all. Global chat supports research, references, images and substantive reasoning, with genuine approvals for publishing changes.
 
 Zebra is text-only: no speech model, microphone permission or dictation-app integration. The first local LaTeX compilation downloads its verified compiler and required packages. Overleaf projects use a private local working cache for editing and compilation, with background synchronization; external changes pause uploads for review.
 
 The compact interface keeps the PDF central, with a left icon rail, chat on demand, Connections for accounts/projects, and the Zebra icon for About. Notes and version history stay with the paper.
+
+## Reading and local work
+
+Back and Forward restore the previous PDF view, including zoom and scroll position. Enter a page number to jump directly. Zebra restores the reading position for the same document content when reopened. PDF links show a hand pointer without colored outlines.
+
+Unsent paper instructions and notebook drafts are saved locally for offline work. Apply all and GitHub uploads remain manual. Review the exact destination and files before publishing a GitHub update; compiled PDFs, annotated copies and editable annotation records can be included as selected.
 
 ## Updates
 

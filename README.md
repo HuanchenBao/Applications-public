@@ -1,6 +1,6 @@
 # Applications
 
-**Zebra:** [Latest download](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.4/Zebra-1.20.4-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)  
+**Zebra:** [Latest download](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.8/Zebra-1.20.8-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.8)  
 **Dolphin:** [Download and release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.12.0)
 
 ## Dolphin — AI-assisted dictation tool for latex input
@@ -21,13 +21,15 @@ Dolphin’s application source remains private. This public repository contains 
 
 [Watch the 30-second demo](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4#watch-zebra-in-30-seconds) · Five passage edits, one compiled revision, verified Overleaf sync.
 
-**Zebra 1.20.4 — Apple notarized** · Apple silicon · macOS 13.5 or later
+**Zebra 1.20.8 — Apple notarized** · Apple silicon · macOS 13.5 or later
 
-[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.4/Zebra-1.20.4-macOS-AppleSilicon.dmg) · **[Read the release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.4)** · [Setup, updates and privacy](Zebra.md)
+[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.8/Zebra-1.20.8-macOS-AppleSilicon.dmg) · **[Read the release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.8)** · [Setup, updates and privacy](Zebra.md)
 
 A simpler PDF-first workspace with a fully capable GPT assistant and direct Overleaf project browsing. Connect to Overleaf in Zebra, choose your TeX file, and collect passage-specific instructions for **Apply all**. Editing and compilation run locally, with verified synchronization to Overleaf in the background; external changes pause uploads for review.
 
-The compact interface keeps the PDF central, with a left icon rail and GPT chat on demand. Select a passage and press **Option+E** to type an instruction. Zebra is text-only: no speech model, microphone permission or dictation-app integration. Sign in with your own ChatGPT account. An independent dictation app can insert text normally.
+The compact interface keeps the PDF central, with a left icon rail and GPT chat on demand. Select a passage and press **Command+E** (Option+E also works) to type an instruction. Zebra is text-only: no speech model, microphone permission or dictation-app integration. Sign in with your own ChatGPT account. An independent dictation app can insert text normally.
+
+This minor update adds Back/Forward arrows and direct page entry, restores your reading position, opens PDF links without colored outlines, and keeps unsent instructions and notebook drafts available offline. GitHub projects can be opened from Connections, edited and compiled locally, then uploaded after reviewing the files and destination.
 
 The full GPT assistant supports model/reasoning choices, research, linked references, images, notes, version history and publication approvals. Updates under **About** provide signed, checksum-verified downloads for manual installation.
 
