@@ -1,17 +1,21 @@
 # Applications
 
 **Zebra:** [Latest download](https://github.com/HuanchenBao/Applications-public/releases/download/zebra-v1.20.8/Zebra-1.20.8-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/zebra-v1.20.8)  
-**Dolphin:** [Download and release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.12.0)
+**Dolphin:** [Download and release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.31.27)
 
-## Dolphin — AI-assisted dictation tool for latex input
+## Dolphin — Your visual notebook for the AI era
 
-**Dolphin 1.12.0 — Apple notarized** · Apple silicon · macOS 14 or later
+**Dolphin 1.31.27** · Apple silicon · macOS 14 or later · Developer ID signed and Apple notarized
 
-[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/dolphin-v1.12.0/Dolphin-1.12.0-macOS-AppleSilicon.dmg) · [Release notes](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.12.0) · [Setup, updates and privacy](Dolphin.md)
+[Download the Mac installer](https://github.com/HuanchenBao/Applications-public/releases/download/dolphin-v1.31.27/Dolphin-1.31.27-macOS-AppleSilicon.dmg) · [What’s new](https://github.com/HuanchenBao/Applications-public/releases/tag/dolphin-v1.31.27) · [Setup, features and privacy](Dolphin.md)
 
-A standalone dictation app with local speech recognition, optional GPT or local formatting, mode-specific references, and LaTeX support. No speech or formatting models are bundled. On first use, download Whisper Large v3 Turbo (Q5) and connect your own ChatGPT account. The default formatter is GPT-6-Luna with Low reasoning.
+Capture thoughts by speaking, keep the original material, and explore your notes on a visual blueprint. Navigate chapters and note cards, follow explained connections, and switch between a compact overview and the original Markdown. Open the integrated GPT assistant to search, ask questions, create or update notes, and work with the current map.
 
-Dolphin’s application source remains private. This public repository contains the compiled installer, release information and signed update feed. The installer excludes developer credentials and personal dictation data.
+Fn dictation remains available inside Dolphin and other supported apps. New installations offer Cohere Transcribe Q4 for English; multilingual Whisper and Qwen choices remain available. Formatting starts Off, with optional local cleanup models. Download model weights separately in Settings.
+
+Retained source records keep audio and transcript stages available for playback, export and linking into notes. Recognition and local formatting run on your Mac; GPT requests send relevant content to your selected provider. Use your own account. Dropbox sync is not configured in this distribution.
+
+The public download contains compiled software, licenses, setup documentation and checksums. Application source remains private. No developer credentials, account sessions, personal notes, recordings, training records or model weights are bundled.
 
 ## Zebra — AI-assisted LaTeX Editor and PDF Reader
 
